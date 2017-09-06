@@ -87,6 +87,44 @@ String result = "안" + "녕하" + "세요";
 	}
   ```
 
+## Math API
+Math 클래스는 final로 선언이 되어 있어 별도의 객체화 없이 사용 가능
+
+> 1. 절대값 구하기
+```java
+int a = Math.abs(-123);
+```
+
+> 2. 반올림
+```java
+int b = (int) Math.round(123.5);
+```
+
+> 3. 올림
+```java
+double c = Math.ceil(341.231);
+```
+
+> 4. 내림
+```java
+double d = Math.floor(123.431);
+```
+
+> 5. Random 함수
+
+```java
+
+    Math.random(); //0보다 크거나 같고 1보다 작은 실수를 return 함
+
+		Random random = new Random();
+
+		//1부터 100 사이의 Random한 숫자 가져오기
+
+		int r = random.nextInt(100) + 1; //0 부터 99 사이의 정수가 리턴되고 1부터 100사이의 정수를 하려면 +1을 하면 된다.
+```
+
+
+
 
 ## Algorithm
 String 함수를 이용한 Algorithm 풀이
